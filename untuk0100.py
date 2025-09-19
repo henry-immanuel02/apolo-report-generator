@@ -1,4 +1,4 @@
-from variables_1 import *
+from variables import *
 
 def cek_nomor_polis(x, jenis_pertanggungan):
     if 100 <= int(jenis_pertanggungan) <= 400:
@@ -228,4 +228,5 @@ def cek_jumlah_tertanggung(x, jenis_pertanggungan):
     else:
         return ''
     
+
 

@@ -1,4 +1,4 @@
-from variables_1 import *
+from variables import *
 
 def cek_status2(x):
     try:
@@ -57,4 +57,5 @@ def atur_nilai_klaim(x, status_pertanggungan):
                 return -1
         else:
             return -1
+
         

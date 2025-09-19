@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from functions import *
 from untuk0100 import *
-from variables_1 import *
+from variables import *
 from untuk0200 import *
 from oop_module import *
 
@@ -76,3 +76,4 @@ if st.session_state.Object1 is not None:
             file_name=f"PLSASRUK-0200-R-M-{int(periode.strftime("%Y%m%d"))}-2000003822-01.txt",
             mime="text/plain"
         )
+

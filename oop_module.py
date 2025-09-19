@@ -1,6 +1,6 @@
 from functions import *
 from untuk0100 import *
-from variables_1 import *
+from variables import *
 from untuk0200 import *
 import pandas as pd
 
@@ -137,3 +137,4 @@ class Apolo():
         content = header_line + "\r\n" + body + footer_line + "\r\n"
 
         return content
+
